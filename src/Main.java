@@ -21,8 +21,8 @@ public class Main {
 
         System.out.println("Задание 3");
 
-        int year = 2015; // начиная с 1584 года, не ранее
-        if ((year % 4 == 0) && (year % 100 != 0) && (year % 400 == 0)) {
+        int year = 1600; // начиная с 1584 года, не ранее
+        if ((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0)) {
             System.out.println(year + " год является високосным.");
         } else {
             System.out.println(year + " год не является високосным.");
