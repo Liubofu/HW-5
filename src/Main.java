@@ -47,7 +47,7 @@ public class Main {
             System.out.println("Для доставки потребуется 2 дня.");
         } else if (deliveryDistance >= 60 && deliveryDistance < 100) {
             System.out.println("Для доставки потребуется 3 дня.");
-        } else if (deliveryDistance > 100) {
+        } else if (deliveryDistance >= 100) {
             System.out.println("Доставки нет.");
         }
 
